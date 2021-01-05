@@ -2,7 +2,6 @@ package Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.Test;
 
 public class HomePage {
 	
@@ -25,6 +24,9 @@ public class HomePage {
 	//WebElement searchIcon = driver.findElement(By.xpath("//*[@id=\"header-search\"]/div[1]/div/div/form/div/button/i"));
 	By txtSearchButton = By.xpath("//*[@id=\"header-search\"]/div[1]/div/div/form/div/button/i");
 	
+	By buttonPasaj = By.xpath("/html/body/header/div[2]/div/nav/a[1]");
+	
+	
 	public void clickSearch() {
 		driver.findElement(searchButton).click();
 	}
@@ -35,5 +37,9 @@ public class HomePage {
 	
 	public void clickTxtSearchBtn() {
 		driver.findElement(txtSearchButton).click();
+	}
+	
+	public void clickPasajBtn() {
+		driver.findElement(buttonPasaj).click();
 	}
 }
