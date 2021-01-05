@@ -23,7 +23,7 @@ public class SearchResults {
 	
 	public void isDisplayedSearchPhone() {
 		
-		if(driver.findElement(lblPhoneName) != null) {
+		if(driver.findElement(lblPhoneName).getAttribute("innerHTML").contains("iPhone 12 Pro Max 512 GB")) {
 			System.out.println("Phone is displayed");
 		}else {
 			System.out.println("Phone is not displayed");
