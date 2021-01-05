@@ -33,7 +33,7 @@ public class MacbookDetailPage {
 	}
 	
 	public void compareSixandNineMonths() throws ParseException {
-		Double i=(double) 0;
+		
 		String sixMonthsPrice = driver.findElement(installmentSixMonths).getAttribute("data-price");
 		int priceSix = (int)Math.round((Double) NumberFormat.getInstance().parse(sixMonthsPrice));
 		//int priceSix = (int)Math.round(i);
