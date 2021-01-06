@@ -6,17 +6,17 @@ import org.testng.annotations.Test;
 
 public class CasesTest {
 
-  @Test
+  @Test(priority = 1)
   public void firstCaseTest() {
 	  Cases.firstCase();    
   }
 
-  @Test
+  @Test(priority = 2)
   public void secondCaseTest() {
 	  Cases.secondCase();
   }
 
-  @Test
+  @Test(priority = 3)
   public void thirdCaseTest() throws ParseException {
 	  Cases.thirdCase();
   }
