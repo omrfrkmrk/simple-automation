@@ -1,24 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-06T05:02:32 TRT" name="Default suite" finished-at="2021-01-06T05:03:21 TRT" duration-ms="48849">
+  <suite started-at="2021-01-17T14:57:44 TRT" name="Default suite" finished-at="2021-01-17T14:58:32 TRT" duration-ms="48042">
     <groups>
     </groups>
-    <test started-at="2021-01-06T05:02:32 TRT" name="Default test" finished-at="2021-01-06T05:03:21 TRT" duration-ms="48849">
+    <test started-at="2021-01-17T14:57:44 TRT" name="Default test" finished-at="2021-01-17T14:58:32 TRT" duration-ms="48042">
       <class name="testCases.CasesTest">
-        <test-method signature="firstCaseTest()[pri:1, instance:testCases.CasesTest@4e91d63f]" started-at="2021-01-06T05:02:32 TRT" name="firstCaseTest" finished-at="2021-01-06T05:02:43 TRT" duration-ms="10313" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:57:44 TRT" name="beforeSuite" finished-at="2021-01-17T14:57:44 TRT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:57:44 TRT" name="beforeTest" finished-at="2021-01-17T14:57:44 TRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:57:44 TRT" name="beforeClass" finished-at="2021-01-17T14:57:44 TRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:57:44 TRT" name="beforeMethod" finished-at="2021-01-17T14:57:52 TRT" duration-ms="8612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="firstCaseTest()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:57:52 TRT" name="firstCaseTest" finished-at="2021-01-17T14:57:54 TRT" duration-ms="1911" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstCaseTest -->
-        <test-method signature="secondCaseTest()[pri:2, instance:testCases.CasesTest@4e91d63f]" started-at="2021-01-06T05:02:43 TRT" name="secondCaseTest" finished-at="2021-01-06T05:03:05 TRT" duration-ms="22566" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:57:54 TRT" name="afterMethod" finished-at="2021-01-17T14:57:55 TRT" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:57:55 TRT" name="beforeMethod" finished-at="2021-01-17T14:58:03 TRT" duration-ms="8033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="secondCaseTest()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:58:03 TRT" name="secondCaseTest" finished-at="2021-01-17T14:58:06 TRT" duration-ms="3265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondCaseTest -->
-        <test-method signature="thirdCaseTest()[pri:3, instance:testCases.CasesTest@4e91d63f]" started-at="2021-01-06T05:03:05 TRT" name="thirdCaseTest" finished-at="2021-01-06T05:03:21 TRT" duration-ms="15947" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:58:06 TRT" name="afterMethod" finished-at="2021-01-17T14:58:07 TRT" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:58:07 TRT" name="beforeMethod" finished-at="2021-01-17T14:58:15 TRT" duration-ms="8063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="thirdCaseTest()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:58:15 TRT" name="thirdCaseTest" finished-at="2021-01-17T14:58:31 TRT" duration-ms="16308" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="product-detail"]/div[1]/div/div/div[2]/form/div[2]/label/div[1]/span[2]/span"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RUPLHM2', ip: '192.168.0.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\omer_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c55829cbde1e73411590d183a2754288
+*** Element info: {Using=xpath, value=//*[@id="product-detail"]/div[1]/div/div/div[2]/form/div[2]/label/div[1]/span[2]/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="product-detail"]/div[1]/div/div/div[2]/form/div[2]/label/div[1]/span[2]/span"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RUPLHM2', ip: '192.168.0.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\omer_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c55829cbde1e73411590d183a2754288
+*** Element info: {Using=xpath, value=//*[@id="product-detail"]/div[1]/div/div/div[2]/form/div[2]/label/div[1]/span[2]/span}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Pages.MacbookDetailPage.checkInstallmentAmount(MacbookDetailPage.java:32)
+at Pages.Cases.thirdCase(Cases.java:102)
+at testCases.CasesTest.thirdCaseTest(CasesTest.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- thirdCaseTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:58:31 TRT" name="afterMethod" finished-at="2021-01-17T14:58:32 TRT" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:58:32 TRT" name="afterClass" finished-at="2021-01-17T14:58:32 TRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:58:32 TRT" name="afterTest" finished-at="2021-01-17T14:58:32 TRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:58:32 TRT" name="afterSuite" finished-at="2021-01-17T14:58:32 TRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
       </class> <!-- testCases.CasesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -15,7 +15,7 @@ public class MacbookPage {
 		this.driver = driver;
 	}
 		
-	By macbookPro = By.xpath("//*[@id=\"all-devices-section\"]/div[26]");
+	By macbookPro = By.xpath("//*[@id=\"all-devices-section\"]/div[27]");
 	
 	public void clickMacbookDetail() {
 		logger.info("Clicking Macbok detail...");

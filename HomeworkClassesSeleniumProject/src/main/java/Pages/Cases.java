@@ -1,4 +1,4 @@
-package testCases;
+package Pages;
 
 import java.text.ParseException;
 import java.util.concurrent.TimeUnit;
@@ -13,36 +13,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-
-import Pages.HomePage;
-import Pages.MacbookDetailPage;
-import Pages.MacbookPage;
-import Pages.PasajPage;
-import Pages.SearchResults;
-
 public class Cases {
 	
-	static String url = "https:\\turkcell.com.tr";
 	private static final Logger logger = LogManager.getLogger(Cases.class);
 	
-	
-	public static void main(String[] args) throws ParseException {
-		
-		firstCase();
-		secondCase();
-		thirdCase();
-	}
-	
-	public static void firstCase() {
-		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\omer_\\Desktop\\chromedriver_win32\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
-		
-		logger.info("Chrome is opening(firstCase)...");
-		driver.get(url);
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
-		logger.info("Chrome is maximized(firstCase)...");
+	public static void firstCase(WebDriver driver) {
 		
 		//Created object of home page
 		HomePage home = new HomePage(driver);
@@ -67,20 +42,9 @@ public class Cases {
 		res.isDisplayedSearchPhone();
 		logger.info("Checked searched phone is same with listed one(firstCase)...");
 		
-		driver.quit();
-		logger.info("Chrome was closed successfully(firstCase)..");
 	}
 	
-	public static void secondCase() {
-		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\omer_\\Desktop\\chromedriver_win32\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
-		
-		logger.info("Chrome is opening(secondCase)...");
-		driver.get(url);
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
-		logger.info("Chrome is maximized(secondCase)...");
+	public static void secondCase(WebDriver driver) {
 		
 		HomePage home = new HomePage(driver);
 		logger.info("MainPage object created(secondCase)...");
@@ -97,27 +61,15 @@ public class Cases {
 		psj.isDisplayedEmptyCartMessage();
 		logger.info("Shown empty cart message on screen(secondCase)..");
 		
-		driver.quit();
-		logger.info("Chrome was closed successfully(secondCase)..");
 	}
 
-	public static void thirdCase() throws ParseException {
-		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\omer_\\Desktop\\chromedriver_win32\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+	public static void thirdCase(WebDriver driver) throws ParseException {
 		
 		WebDriverWait wait = new WebDriverWait(driver,30);
 		logger.info("Created wait object(thirdCase)...");
 		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		logger.info("JavascriptExecuter is created to go bottom of the page(thirdCase)...");
-		
-		logger.info("Chrome is opening(thirdCase)...");
-		driver.get(url);
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
-		driver.manage().window().maximize();
-		logger.info("Chrome is maximized(thirdCase)...");
 		
 		HomePage home = new HomePage(driver);
 		logger.info("MainPage object created(thirdCase)...");
@@ -135,7 +87,7 @@ public class Cases {
 		logger.info("Clicked Apple Macbook under Popüler Markalar title(thirdCase)...");
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"all-devices-section\"]/div[26]/a/div[1]/div/div[1]/div/div[1]/figure/img")));
+		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"all-devices-section\"]/div[26]/a/div[1]/div/div[1]/div/div[1]/figure/img")));
 		logger.info("Displayed product Macbook pro(thirdCase)...");
 		
 		MacbookPage mb = new MacbookPage(driver);
@@ -153,7 +105,6 @@ public class Cases {
 		mdp.compareSixandNineMonths();
 		logger.info("Successfully compared six months installment and nine months installment(thirdCase)...");
 		
-		driver.quit();
-		logger.info("Chrome was closed successfully(thirdCase)..");
+		
 	}
 }

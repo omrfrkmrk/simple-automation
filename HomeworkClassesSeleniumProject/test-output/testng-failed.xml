@@ -5,7 +5,15 @@
     <classes>
       <class name="testCases.CasesTest">
         <methods>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
           <include name="thirdCaseTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
         </methods>
       </class> <!-- testCases.CasesTest -->
     </classes>

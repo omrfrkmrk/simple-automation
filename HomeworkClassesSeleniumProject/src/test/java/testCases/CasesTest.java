@@ -4,20 +4,24 @@ import java.text.ParseException;
 
 import org.testng.annotations.Test;
 
-public class CasesTest {
+import Pages.Cases;
+import TestBase.TestBase;
 
-  @Test(priority = 1)
+public class CasesTest extends TestBase{
+  
+  @Test
   public void firstCaseTest() {
-	  Cases.firstCase();    
+	  
+	  Cases.firstCase(driver);    
   }
 
-  @Test(priority = 2)
+  @Test
   public void secondCaseTest() {
-	  Cases.secondCase();
+	  Cases.secondCase(driver);
   }
 
-  @Test(priority = 3)
+  @Test
   public void thirdCaseTest() throws ParseException {
-	  Cases.thirdCase();
+	  Cases.thirdCase(driver);
   }
 }
