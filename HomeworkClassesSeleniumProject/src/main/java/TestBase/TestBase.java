@@ -25,7 +25,7 @@ public class TestBase {
 	
 	@BeforeSuite	
 	public void beforeSuite() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\omer_\\Desktop\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
 	}
 	  
 	@AfterSuite	

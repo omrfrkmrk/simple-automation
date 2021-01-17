@@ -2,52 +2,52 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-17T14:57:44 TRT" name="Default suite" finished-at="2021-01-17T14:58:32 TRT" duration-ms="48042">
+  <suite started-at="2021-01-17T15:23:44 TRT" name="Default suite" finished-at="2021-01-17T15:24:34 TRT" duration-ms="49646">
     <groups>
     </groups>
-    <test started-at="2021-01-17T14:57:44 TRT" name="Default test" finished-at="2021-01-17T14:58:32 TRT" duration-ms="48042">
+    <test started-at="2021-01-17T15:23:44 TRT" name="Default test" finished-at="2021-01-17T15:24:34 TRT" duration-ms="49646">
       <class name="testCases.CasesTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:57:44 TRT" name="beforeSuite" finished-at="2021-01-17T14:57:44 TRT" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testCases.CasesTest@34c01041]" started-at="2021-01-17T15:23:44 TRT" name="beforeSuite" finished-at="2021-01-17T15:23:44 TRT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:57:44 TRT" name="beforeTest" finished-at="2021-01-17T14:57:44 TRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.CasesTest@34c01041]" started-at="2021-01-17T15:23:44 TRT" name="beforeTest" finished-at="2021-01-17T15:23:44 TRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:57:44 TRT" name="beforeClass" finished-at="2021-01-17T14:57:44 TRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testCases.CasesTest@34c01041]" started-at="2021-01-17T15:23:44 TRT" name="beforeClass" finished-at="2021-01-17T15:23:44 TRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:57:44 TRT" name="beforeMethod" finished-at="2021-01-17T14:57:52 TRT" duration-ms="8612" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testCases.CasesTest@34c01041]" started-at="2021-01-17T15:23:44 TRT" name="beforeMethod" finished-at="2021-01-17T15:23:53 TRT" duration-ms="8464" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="firstCaseTest()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:57:52 TRT" name="firstCaseTest" finished-at="2021-01-17T14:57:54 TRT" duration-ms="1911" status="PASS">
+        <test-method signature="firstCaseTest()[pri:0, instance:testCases.CasesTest@34c01041]" started-at="2021-01-17T15:23:53 TRT" name="firstCaseTest" finished-at="2021-01-17T15:23:55 TRT" duration-ms="1960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstCaseTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:57:54 TRT" name="afterMethod" finished-at="2021-01-17T14:57:55 TRT" duration-ms="602" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCases.CasesTest@34c01041]" started-at="2021-01-17T15:23:55 TRT" name="afterMethod" finished-at="2021-01-17T15:23:55 TRT" duration-ms="588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:57:55 TRT" name="beforeMethod" finished-at="2021-01-17T14:58:03 TRT" duration-ms="8033" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testCases.CasesTest@34c01041]" started-at="2021-01-17T15:23:55 TRT" name="beforeMethod" finished-at="2021-01-17T15:24:03 TRT" duration-ms="8069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="secondCaseTest()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:58:03 TRT" name="secondCaseTest" finished-at="2021-01-17T14:58:06 TRT" duration-ms="3265" status="PASS">
+        <test-method signature="secondCaseTest()[pri:0, instance:testCases.CasesTest@34c01041]" started-at="2021-01-17T15:24:03 TRT" name="secondCaseTest" finished-at="2021-01-17T15:24:08 TRT" duration-ms="4479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondCaseTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:58:06 TRT" name="afterMethod" finished-at="2021-01-17T14:58:07 TRT" duration-ms="610" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCases.CasesTest@34c01041]" started-at="2021-01-17T15:24:08 TRT" name="afterMethod" finished-at="2021-01-17T15:24:09 TRT" duration-ms="604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:58:07 TRT" name="beforeMethod" finished-at="2021-01-17T14:58:15 TRT" duration-ms="8063" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testCases.CasesTest@34c01041]" started-at="2021-01-17T15:24:09 TRT" name="beforeMethod" finished-at="2021-01-17T15:24:17 TRT" duration-ms="8138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="thirdCaseTest()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:58:15 TRT" name="thirdCaseTest" finished-at="2021-01-17T14:58:31 TRT" duration-ms="16308" status="FAIL">
+        <test-method signature="thirdCaseTest()[pri:0, instance:testCases.CasesTest@34c01041]" started-at="2021-01-17T15:24:17 TRT" name="thirdCaseTest" finished-at="2021-01-17T15:24:33 TRT" duration-ms="16699" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="product-detail"]/div[1]/div/div/div[2]/form/div[2]/label/div[1]/span[2]/span"}
@@ -56,8 +56,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'DESKTOP-RUPLHM2', ip: '192.168.0.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\omer_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c55829cbde1e73411590d183a2754288
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\omer_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f8338c06cfb3f1353d9be1d39e8a43c5
 *** Element info: {Using=xpath, value=//*[@id="product-detail"]/div[1]/div/div/div[2]/form/div[2]/label/div[1]/span[2]/span}]]>
             </message>
             <full-stacktrace>
@@ -67,8 +67,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'DESKTOP-RUPLHM2', ip: '192.168.0.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\omer_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c55829cbde1e73411590d183a2754288
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\omer_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f8338c06cfb3f1353d9be1d39e8a43c5
 *** Element info: {Using=xpath, value=//*[@id="product-detail"]/div[1]/div/div/div[2]/form/div[2]/label/div[1]/span[2]/span}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
@@ -122,19 +122,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- thirdCaseTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:58:31 TRT" name="afterMethod" finished-at="2021-01-17T14:58:32 TRT" duration-ms="617" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCases.CasesTest@34c01041]" started-at="2021-01-17T15:24:33 TRT" name="afterMethod" finished-at="2021-01-17T15:24:34 TRT" duration-ms="627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:58:32 TRT" name="afterClass" finished-at="2021-01-17T14:58:32 TRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testCases.CasesTest@34c01041]" started-at="2021-01-17T15:24:34 TRT" name="afterClass" finished-at="2021-01-17T15:24:34 TRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:58:32 TRT" name="afterTest" finished-at="2021-01-17T14:58:32 TRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testCases.CasesTest@34c01041]" started-at="2021-01-17T15:24:34 TRT" name="afterTest" finished-at="2021-01-17T15:24:34 TRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testCases.CasesTest@22f31dec]" started-at="2021-01-17T14:58:32 TRT" name="afterSuite" finished-at="2021-01-17T14:58:32 TRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testCases.CasesTest@34c01041]" started-at="2021-01-17T15:24:34 TRT" name="afterSuite" finished-at="2021-01-17T15:24:34 TRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
