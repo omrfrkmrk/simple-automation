@@ -5,10 +5,11 @@ import java.text.ParseException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class MacbookDetailPage {
+public class MacbookDetailPage extends BasePage {
 	
 	private static final Logger logger = LogManager.getLogger(MacbookDetailPage.class);
 	WebDriver driver;
@@ -16,6 +17,7 @@ public class MacbookDetailPage {
 	public MacbookDetailPage(WebDriver driver) {
 		logger.info("Creating MacbookDetailPage object..");
 		this.driver = driver;
+		init(driver);
 	}
 	
 	By installmentAmount = By.xpath("//*[@id=\"product-detail\"]/div[1]/div/div/div[2]/form/div[2]/label/div[1]/span[2]/span");
@@ -23,6 +25,8 @@ public class MacbookDetailPage {
 	By installmentSixMonths = By.xpath("//*[@id=\"product-detail\"]/div[1]/div/div/div[2]/form/div[2]/label/div[2]/a[1]");
 										
 	By installmentNineMonths = By.xpath("//*[@id=\"product-detail\"]/div[1]/div/div/div[2]/form/div[2]/label/div[2]/a[2]");
+	
+	By price = By.xpath("//*[@id=\"product-detail\"]/div[1]/div/div/div[2]/form/div[2]/label/div[1]/span[2]/span");
 	
 	
 	public void checkInstallmentAmount() {		
@@ -76,4 +80,20 @@ public class MacbookDetailPage {
 			System.out.println("Installment Amount with six months is not bigger than nine");
 		}
 	}
+	
+	public void CheckPriceForMacbook() {
+		String priceStr = getElement(price).getAttribute("innerHTML");
+		int priceInt = Integer.parseInt(priceStr.replace(".", ""));
+		
+		if(priceInt > 10000) {
+			System.out.println("Price is bigger than 10000");
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
 }

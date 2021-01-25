@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Cases {
+public class Cases extends BasePage {
 	
 	private static final Logger logger = LogManager.getLogger(Cases.class);
 	
@@ -86,9 +86,9 @@ public class Cases {
 		psj.clickMacbookButton();
 		logger.info("Clicked Apple Macbook under Popüler Markalar title(thirdCase)...");
 		
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"all-devices-section\"]/div[26]/a/div[1]/div/div[1]/div/div[1]/figure/img")));
-		logger.info("Displayed product Macbook pro(thirdCase)...");
+		//logger.info("Displayed product Macbook pro(thirdCase)...");
 		
 		MacbookPage mb = new MacbookPage(driver);
 		logger.info("MacbookPage object is created(thirdCase)...");
@@ -99,12 +99,13 @@ public class Cases {
 		mb.clickMacbookDetail();
 		logger.info("Successfully clicked Macbook product(thirdCase)...");
 		
-		mdp.checkInstallmentAmount();
-		logger.info("Successfully Checked installmentAmount(thirdCase)...");
+	//	mdp.checkInstallmentAmount();
+	//	logger.info("Successfully Checked installmentAmount(thirdCase)...");
 		
-		mdp.compareSixandNineMonths();
-		logger.info("Successfully compared six months installment and nine months installment(thirdCase)...");
+	//	mdp.compareSixandNineMonths();
+	//	logger.info("Successfully compared six months installment and nine months installment(thirdCase)...");
 		
+		mdp.CheckPriceForMacbook();
 		
 	}
 }
