@@ -2,24 +2,21 @@ package Pages;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class BasePage {
+public class Actions extends ElementService {
 
-	public static WebDriver driver;
 	private static final Logger logger = LogManager.getLogger(Cases.class);
-	public Actions actions;
-	public Validations validations;
-	public ElementService elementService;
-	public WebDriverWait wait;
+	public static WebDriver driver;
 
-	public void init(WebDriver driver) {
-		this.driver = driver;
-		actions = new Actions();
-		validations = new Validations();
-		elementService = new ElementService();
+	public void clickElement(By by) {
+		getElement(by).click();
+	}
+
+	public void setTextToElement(By by, String text) {
+		getElement(by).sendKeys(text);
 	}
 
 	public static void goToBottomOfPage() {
@@ -29,5 +26,4 @@ public class BasePage {
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		logger.info("Accessed bottom of the page(thirdCase)...");
 	}
-
 }
